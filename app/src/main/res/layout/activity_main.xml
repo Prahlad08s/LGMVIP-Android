@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="3dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Let's Grow More"
+                android:textStyle="bold|italic"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textSize="18sp"
+                android:padding="3dp"
+                android:layout_margin="3dp"
+                android:textColor="@color/purple_700"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Covid Case Tracker"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textSize="30sp"
+                android:padding="3dp"
+                android:layout_margin="3dp"
+                android:textColor="@color/black"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="World Wide Cases"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:padding="3dp"
+                    android:layout_margin="13dp"
+                    android:textColor="@color/black"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Cases"
+                            android:padding="6dp"
+                            android:textSize="15sp"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Number of Cases recorded"
+                            android:id="@+id/idTVWorldCases"
+                            android:padding="4dp"
+                            android:textSize="15sp"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/blue"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="6dp"
+                            android:text="Recovered"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Number of recovered patients"
+                            android:id="@+id/idTCWorldRecovered"
+                            android:padding="4dp"
+                            android:textSize="15sp"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/green"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Deaths"
+                        android:padding="6dp"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Number of Deaths recorded"
+                        android:id="@+id/idTVWorldDeaths"
+                        android:padding="4dp"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="3dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="India Cases"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:padding="3dp"
+                    android:layout_margin="13dp"
+                    android:textColor="@color/black"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Cases"
+                            android:padding="6dp"
+                            android:textSize="15sp"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Number of Cases recorded"
+                            android:id="@+id/idTVIndiaCases"
+                            android:padding="4dp"
+                            android:textSize="15sp"
+                            android:textAlignment="center"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/blue"
+                            android:textStyle="bold"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_weight="1"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="6dp"
+                            android:text="Recovered"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/idTVIndiaRecovered"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:padding="4dp"
+                            android:text="Number of recovered patients"
+                            android:textAlignment="center"
+                            android:textColor="@color/green"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Deaths"
+                        android:padding="6dp"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Number of Deaths recorded"
+                        android:id="@+id/idTVIndiaDeaths"
+                        android:padding="4dp"
+                        android:textSize="15sp"
+                        android:textAlignment="center"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        />
+
+                </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idRVStates"
+        />
+
+</LinearLayout>
